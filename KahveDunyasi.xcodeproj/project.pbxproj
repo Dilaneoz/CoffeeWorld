@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		519586532A07D35600B4ED0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586522A07D35600B4ED0E /* AppDelegate.swift */; };
+		519586552A07D35600B4ED0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586542A07D35600B4ED0E /* SceneDelegate.swift */; };
+		519586572A07D35600B4ED0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586562A07D35600B4ED0E /* ViewController.swift */; };
+		5195865A2A07D35600B4ED0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519586582A07D35600B4ED0E /* Main.storyboard */; };
+		5195865C2A07D35900B4ED0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5195865B2A07D35900B4ED0E /* Assets.xcassets */; };
+		5195865F2A07D35900B4ED0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5195865D2A07D35900B4ED0E /* LaunchScreen.storyboard */; };
+		519586682A07D64700B4ED0E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586672A07D64700B4ED0E /* LoginViewController.swift */; };
+		5195866A2A07D66A00B4ED0E /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519586692A07D66A00B4ED0E /* Authorization.storyboard */; };
+		5195868D2A07DE8A00B4ED0E /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5195868C2A07DE8A00B4ED0E /* UIApplication+Extensions.swift */; };
+		5195868F2A07E41C00B4ED0E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5195868E2A07E41C00B4ED0E /* MenuViewController.swift */; };
+		519586922A07E67000B4ED0E /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586912A07E67000B4ED0E /* Coffee.swift */; };
+		519586942A07E69100B4ED0E /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586932A07E69100B4ED0E /* CartItem.swift */; };
+		519586962A07E6DC00B4ED0E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586952A07E6DC00B4ED0E /* BaseViewController.swift */; };
+		519586992A07E70900B4ED0E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586982A07E70900B4ED0E /* Colors.swift */; };
+		5195869B2A07E72C00B4ED0E /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5195869A2A07E72C00B4ED0E /* CurrencyFormatter.swift */; };
+		5195869E2A07E91E00B4ED0E /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5195869D2A07E91E00B4ED0E /* CoffeeCell.swift */; };
+		519586A02A07EB6E00B4ED0E /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5195869F2A07EB6E00B4ED0E /* UIImage+Extensions.swift */; };
+		519586A22A07EC0400B4ED0E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586A12A07EC0400B4ED0E /* UIView+Extensions.swift */; };
+		519586A42A07ED8900B4ED0E /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586A32A07ED8900B4ED0E /* UIBarButtonItem+Extensions.swift */; };
+		519586A62A07F02E00B4ED0E /* OrderCoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586A52A07F02E00B4ED0E /* OrderCoffeeViewController.swift */; };
+		519586A82A07F59900B4ED0E /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586A72A07F59900B4ED0E /* ShoppingCart.swift */; };
+		519586AA2A07F6B800B4ED0E /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586A92A07F6B800B4ED0E /* ShoppingCartViewController.swift */; };
+		519586AC2A07F70300B4ED0E /* CartCoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519586AB2A07F70300B4ED0E /* CartCoffeeCell.swift */; };
+		F014DAE9DD56298DD8D4936E /* Pods_KahveDunyasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4360C17531987488C526EA /* Pods_KahveDunyasi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5195864F2A07D35600B4ED0E /* KahveDunyasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KahveDunyasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		519586522A07D35600B4ED0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		519586542A07D35600B4ED0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		519586562A07D35600B4ED0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		519586592A07D35600B4ED0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5195865B2A07D35900B4ED0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5195865E2A07D35900B4ED0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		519586602A07D35900B4ED0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519586672A07D64700B4ED0E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		519586692A07D66A00B4ED0E /* Authorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
+		5195868C2A07DE8A00B4ED0E /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		5195868E2A07E41C00B4ED0E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		519586912A07E67000B4ED0E /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		519586932A07E69100B4ED0E /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		519586952A07E6DC00B4ED0E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		519586982A07E70900B4ED0E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5195869A2A07E72C00B4ED0E /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		5195869D2A07E91E00B4ED0E /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		5195869F2A07EB6E00B4ED0E /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		519586A12A07EC0400B4ED0E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		519586A32A07ED8900B4ED0E /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		519586A52A07F02E00B4ED0E /* OrderCoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoffeeViewController.swift; sourceTree = "<group>"; };
+		519586A72A07F59900B4ED0E /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		519586A92A07F6B800B4ED0E /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		519586AB2A07F70300B4ED0E /* CartCoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoffeeCell.swift; sourceTree = "<group>"; };
+		5B4360C17531987488C526EA /* Pods_KahveDunyasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KahveDunyasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7730391639F0E1ED888F15B7 /* Pods-KahveDunyasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahveDunyasi.release.xcconfig"; path = "Target Support Files/Pods-KahveDunyasi/Pods-KahveDunyasi.release.xcconfig"; sourceTree = "<group>"; };
+		E258E2A7F4D35EED8A3894D7 /* Pods-KahveDunyasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahveDunyasi.debug.xcconfig"; path = "Target Support Files/Pods-KahveDunyasi/Pods-KahveDunyasi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5195864C2A07D35600B4ED0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F014DAE9DD56298DD8D4936E /* Pods_KahveDunyasi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108C19116CD049C989F8C440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E258E2A7F4D35EED8A3894D7 /* Pods-KahveDunyasi.debug.xcconfig */,
+				7730391639F0E1ED888F15B7 /* Pods-KahveDunyasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		519586462A07D35600B4ED0E = {
+			isa = PBXGroup;
+			children = (
+				519586512A07D35600B4ED0E /* KahveDunyasi */,
+				519586502A07D35600B4ED0E /* Products */,
+				108C19116CD049C989F8C440 /* Pods */,
+				EB9C6183870A6FE615ED70EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		519586502A07D35600B4ED0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5195864F2A07D35600B4ED0E /* KahveDunyasi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		519586512A07D35600B4ED0E /* KahveDunyasi */ = {
+			isa = PBXGroup;
+			children = (
+				5195869C2A07E90000B4ED0E /* cells */,
+				519586972A07E6FF00B4ED0E /* Utils */,
+				519586902A07E65F00B4ED0E /* Models */,
+				5195868B2A07DE6600B4ED0E /* Extensions */,
+				519586662A07D63800B4ED0E /* Controllers */,
+				519586522A07D35600B4ED0E /* AppDelegate.swift */,
+				519586542A07D35600B4ED0E /* SceneDelegate.swift */,
+				519586562A07D35600B4ED0E /* ViewController.swift */,
+				519586582A07D35600B4ED0E /* Main.storyboard */,
+				5195865B2A07D35900B4ED0E /* Assets.xcassets */,
+				5195865D2A07D35900B4ED0E /* LaunchScreen.storyboard */,
+				519586602A07D35900B4ED0E /* Info.plist */,
+				519586692A07D66A00B4ED0E /* Authorization.storyboard */,
+			);
+			path = KahveDunyasi;
+			sourceTree = "<group>";
+		};
+		519586662A07D63800B4ED0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				519586672A07D64700B4ED0E /* LoginViewController.swift */,
+				5195868E2A07E41C00B4ED0E /* MenuViewController.swift */,
+				519586952A07E6DC00B4ED0E /* BaseViewController.swift */,
+				519586A52A07F02E00B4ED0E /* OrderCoffeeViewController.swift */,
+				519586A92A07F6B800B4ED0E /* ShoppingCartViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5195868B2A07DE6600B4ED0E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5195868C2A07DE8A00B4ED0E /* UIApplication+Extensions.swift */,
+				5195869F2A07EB6E00B4ED0E /* UIImage+Extensions.swift */,
+				519586A12A07EC0400B4ED0E /* UIView+Extensions.swift */,
+				519586A32A07ED8900B4ED0E /* UIBarButtonItem+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		519586902A07E65F00B4ED0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				519586912A07E67000B4ED0E /* Coffee.swift */,
+				519586932A07E69100B4ED0E /* CartItem.swift */,
+				519586A72A07F59900B4ED0E /* ShoppingCart.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		519586972A07E6FF00B4ED0E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				519586982A07E70900B4ED0E /* Colors.swift */,
+				5195869A2A07E72C00B4ED0E /* CurrencyFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5195869C2A07E90000B4ED0E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				5195869D2A07E91E00B4ED0E /* CoffeeCell.swift */,
+				519586AB2A07F70300B4ED0E /* CartCoffeeCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		EB9C6183870A6FE615ED70EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B4360C17531987488C526EA /* Pods_KahveDunyasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5195864E2A07D35600B4ED0E /* KahveDunyasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 519586632A07D35900B4ED0E /* Build configuration list for PBXNativeTarget "KahveDunyasi" */;
+			buildPhases = (
+				7F22814CB752553C6B8D54D4 /* [CP] Check Pods Manifest.lock */,
+				5195864B2A07D35600B4ED0E /* Sources */,
+				5195864C2A07D35600B4ED0E /* Frameworks */,
+				5195864D2A07D35600B4ED0E /* Resources */,
+				C25223C30D380CA6D1F1DB98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KahveDunyasi;
+			productName = KahveDunyasi;
+			productReference = 5195864F2A07D35600B4ED0E /* KahveDunyasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		519586472A07D35600B4ED0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5195864E2A07D35600B4ED0E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5195864A2A07D35600B4ED0E /* Build configuration list for PBXProject "KahveDunyasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 519586462A07D35600B4ED0E;
+			productRefGroup = 519586502A07D35600B4ED0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5195864E2A07D35600B4ED0E /* KahveDunyasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5195864D2A07D35600B4ED0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5195866A2A07D66A00B4ED0E /* Authorization.storyboard in Resources */,
+				5195865F2A07D35900B4ED0E /* LaunchScreen.storyboard in Resources */,
+				5195865C2A07D35900B4ED0E /* Assets.xcassets in Resources */,
+				5195865A2A07D35600B4ED0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F22814CB752553C6B8D54D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KahveDunyasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C25223C30D380CA6D1F1DB98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KahveDunyasi/Pods-KahveDunyasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KahveDunyasi/Pods-KahveDunyasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KahveDunyasi/Pods-KahveDunyasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5195864B2A07D35600B4ED0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519586A22A07EC0400B4ED0E /* UIView+Extensions.swift in Sources */,
+				519586A42A07ED8900B4ED0E /* UIBarButtonItem+Extensions.swift in Sources */,
+				519586AA2A07F6B800B4ED0E /* ShoppingCartViewController.swift in Sources */,
+				5195868D2A07DE8A00B4ED0E /* UIApplication+Extensions.swift in Sources */,
+				5195869B2A07E72C00B4ED0E /* CurrencyFormatter.swift in Sources */,
+				519586992A07E70900B4ED0E /* Colors.swift in Sources */,
+				5195868F2A07E41C00B4ED0E /* MenuViewController.swift in Sources */,
+				519586942A07E69100B4ED0E /* CartItem.swift in Sources */,
+				519586682A07D64700B4ED0E /* LoginViewController.swift in Sources */,
+				519586572A07D35600B4ED0E /* ViewController.swift in Sources */,
+				519586962A07E6DC00B4ED0E /* BaseViewController.swift in Sources */,
+				519586532A07D35600B4ED0E /* AppDelegate.swift in Sources */,
+				519586552A07D35600B4ED0E /* SceneDelegate.swift in Sources */,
+				519586922A07E67000B4ED0E /* Coffee.swift in Sources */,
+				519586AC2A07F70300B4ED0E /* CartCoffeeCell.swift in Sources */,
+				519586A82A07F59900B4ED0E /* ShoppingCart.swift in Sources */,
+				519586A62A07F02E00B4ED0E /* OrderCoffeeViewController.swift in Sources */,
+				519586A02A07EB6E00B4ED0E /* UIImage+Extensions.swift in Sources */,
+				5195869E2A07E91E00B4ED0E /* CoffeeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		519586582A07D35600B4ED0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519586592A07D35600B4ED0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5195865D2A07D35900B4ED0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5195865E2A07D35900B4ED0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		519586612A07D35900B4ED0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		519586622A07D35900B4ED0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		519586642A07D35900B4ED0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E258E2A7F4D35EED8A3894D7 /* Pods-KahveDunyasi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUXKFT5B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KahveDunyasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendart.KahveDunyasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		519586652A07D35900B4ED0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7730391639F0E1ED888F15B7 /* Pods-KahveDunyasi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUXKFT5B68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KahveDunyasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opendart.KahveDunyasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5195864A2A07D35600B4ED0E /* Build configuration list for PBXProject "KahveDunyasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519586612A07D35900B4ED0E /* Debug */,
+				519586622A07D35900B4ED0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		519586632A07D35900B4ED0E /* Build configuration list for PBXNativeTarget "KahveDunyasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519586642A07D35900B4ED0E /* Debug */,
+				519586652A07D35900B4ED0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 519586472A07D35600B4ED0E /* Project object */;
+}
